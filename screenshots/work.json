@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/work",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Britehive",
+      "hasCanvas": false,
+      "bodyTextLen": 1330,
+      "bodyTextHash": "46a7d9b5c1a431574b745302cf88a3e3e00f79771cc7d344ea24ec3afbd74d37",
+      "bodyTextPrefix": "Britehive Home Work Systems Services About Contact Free consulta",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/work.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Britehive",
+      "hasCanvas": false,
+      "bodyTextLen": 1271,
+      "bodyTextHash": "6ade1fbb315f6e49e729d0746c0b86b07ae7cc59fe8e4e9382cc5c731697afb2",
+      "bodyTextPrefix": "Britehive GRAPHIC DESIGN The wall Campaign posters, product stil",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/work-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/work.json"
+}

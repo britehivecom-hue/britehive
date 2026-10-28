@@ -1,0 +1,132 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-background: #071c21;
+  --color-foreground: #f4f7f6;
+  --color-card: #0d2a31;
+  --color-card-elevated: #12343c;
+  --color-muted: #8aa3a8;
+  --color-subtle: #5e787e;
+  --color-border: #1c4650;
+  --color-border-strong: #2a5c68;
+  --color-primary: #e8b12d;
+  --color-primary-foreground: #071c21;
+  --color-ring: #e8b12d;
+  --color-honey: #e8b12d;
+  --color-ink: #041216;
+  --color-overlay: #071c21cc;
+  --color-success: #7dbe8c;
+  --color-danger: #c97b6a;
+
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Syne", ui-sans-serif, system-ui, sans-serif;
+  --aspect-poster: 3 / 4;
+  --aspect-reel: 9 / 16;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 32px;
+  --radius: 14px;
+  --height-form: 70rem;
+
+  --shadow-lift: 0 28px 60px -32px rgb(0 0 0 / 0.55);
+  --scale-press: 0.97;
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-background);
+    color: var(--color-foreground);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    line-height: 1.55;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    font-weight: 700;
+    overflow: visible;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  * {
+    border-color: var(--color-border);
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+@keyframes hive-rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hive-glow {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.rise {
+  animation: hive-rise 0.7s var(--ease-out-soft) both;
+}
+
+.rise-2 {
+  animation: hive-rise 0.8s var(--ease-out-soft) 0.08s both;
+}
+
+.rise-3 {
+  animation: hive-rise 0.9s var(--ease-out-soft) 0.16s both;
+}
+
+.rise-4 {
+  animation: hive-rise 1s var(--ease-out-soft) 0.24s both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise,
+  .rise-2,
+  .rise-3,
+  .rise-4 {
+    animation: none;
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/contact",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Britehive",
+      "hasCanvas": false,
+      "bodyTextLen": 605,
+      "bodyTextHash": "79f42132f806f902a4ede28843f9ff8c46e35b53fe03f8baa7f068b510c2045c",
+      "bodyTextPrefix": "Britehive Home Work Systems Services About Contact Free consulta",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/contact.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Britehive",
+      "hasCanvas": false,
+      "bodyTextLen": 546,
+      "bodyTextHash": "eaa398076eeee850bb02548daf251889d65af5bff15b6ae3f3e109c8c82e2f93",
+      "bodyTextPrefix": "Britehive CONTACT Free consultation Use the form. If you prefer ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/contact-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/contact.json"
+}

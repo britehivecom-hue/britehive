@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/systems",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Britehive",
+      "hasCanvas": false,
+      "bodyTextLen": 2382,
+      "bodyTextHash": "899a3b8ed4960e98485cc018060d0fee4951e9a57c01b70b35382712886850b1",
+      "bodyTextPrefix": "Britehive Home Work Systems Services About Contact Free consulta",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/systems.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Britehive",
+      "hasCanvas": false,
+      "bodyTextLen": 2323,
+      "bodyTextHash": "d47e858d3e18efb0b9dc80e28e85f828271a40a113880921ab615758b7093845",
+      "bodyTextPrefix": "Britehive PRODUCTISED SYSTEMS Ops, booking, and social — as obje",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/systems-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/systems.json"
+}
